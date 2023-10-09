@@ -19,7 +19,7 @@ export default function HomePage() {
                 </div>
             </div>
             <div className="bg-salmon">
-                <div className="column-padding-centered">
+                <div className="column-padding centered">
                     <div className="callout-wrap">
                         <Image src ={hero} className="callout-image"></Image>
                     </div>
