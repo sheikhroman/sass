@@ -11,10 +11,10 @@ export default function ProductCard({product}) {
             </header>
             <footer>
                 <Link href={`/products/${product.slug}`} className="more">
-                    
+                    See more →
                 </Link>
                 <div className="">
-                    <span className="pill">product.category</span>
+                    <span className="pill">{product.category}</span>
                 </div>
             </footer>
         </article>
