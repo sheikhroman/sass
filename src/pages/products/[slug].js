@@ -16,7 +16,7 @@ export async function getStaticPaths() {
     }
 }
 export async function getStaticProps(context) {
-    context.params.slug
+    const slug = context.params.slug
     return {
         props: {post:{}},
     }
