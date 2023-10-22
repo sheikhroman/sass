@@ -4,12 +4,12 @@ export default function PromoCard() {
     return (
     <section>
             <div className="">
-                <div className="bg-salmon">
+                <div className="">
                     <h4>Get Instant Access</h4>
                     <p style={{fontSize: '1.2rem'}}>Access this products plus dozens of others when you subcribe.</p>
                 </div>
             </div>     
-            <Link href="/pricing" className="primary-button">Purchase</Link>
+            <Link href="/pricing" className="primary button">Purchase</Link>
     </section>
     )
 }
